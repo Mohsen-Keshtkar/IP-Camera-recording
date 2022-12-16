@@ -5,7 +5,7 @@ import os
 outputFileName = 'Myoutput.mp4'
 
 if os.path.isfile(outputFileName):
-    raise ValueError('This output file name is already exists, please change the file name!')
+    raise ValueError('This output filename already exists, please change the filename!')
 else:
 
     # Camera Ip Address
